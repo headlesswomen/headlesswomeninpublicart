@@ -10,3 +10,7 @@ a:hover {color: #ffb8d1}
 .subtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 .footer {height:500px; width: 950px; margin: 0 auto}
 .categories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+.icon {position: relative; margin-left: auto; margin-right: auto; width: 0%;}
+.icon .iconhover {position: absolute; left: 0; top: 0; display: none;}
+.icon:hover .iconhover {display: block}
