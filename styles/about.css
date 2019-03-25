@@ -7,7 +7,7 @@ a:hover {color: #ffb8d1}
 .primarymenu {text-align: center;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 .pagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .pagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.paragraphs {color: #0f0326; font-size: 125%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.paragraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 .lightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .subtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 .footer {height:500px; width: 950px; margin: 0 auto;}
