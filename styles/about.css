@@ -14,6 +14,6 @@ a:hover {color: #ffb8d1}
 .column {float: left; width: 33.33%}
 .categories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
-.icon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 100px;}
-.icon .iconhover {position: absolute; left: 0; top: 0; display: none;}
-.icon:hover .iconhover {display: block}
+.iconabout {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 100px;}
+.iconabout .iconhoverabout {position: absolute; left: 0; top: 0; display: none;}
+.iconabout:hover .iconhoverabout {display: block}
