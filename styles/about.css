@@ -13,7 +13,10 @@ a:hover {color: #ffb8d1}
 .aboutfooter {height:500px; width: 950px; margin: 0 auto;}
 .aboutcolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .aboutcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.aboutimage {width: 100%; height: auto}
+.aboutsideimage {width: 100%; height: auto}
+
+.aboutsidebar {width: 35%; height: 1000px; float: left;}
+.aboutmainbar {width: 65%; height: 1000px; float: right;}
 
 .abouticon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .abouticon .abouticonhover {position: absolute; left: 0; top: 0; display: none;}
@@ -21,5 +24,7 @@ a:hover {color: #ffb8d1}
 
 @media only screen and (max-width: 600px) {
     div.abouttable {font-size: 30px;}
-    div.aboutimage {display: none;}
+    div.aboutsidebar {display: none;}
+    div.aboutsideimage {display: none;}
+    div.aboutmainbar {width: 100%}
 }
