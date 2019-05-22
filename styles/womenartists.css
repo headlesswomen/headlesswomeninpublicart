@@ -1,19 +1,19 @@
 body {background-color: #ffffff;}
 a {color:  #896a67; text-decoration: none;}
 a:hover {color: #ffb8d1}
-.table  {width: 700px; margin: 0 auto}
-.sitetitle {color: #0f0326; font-size: 300%; line-height: 75%; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.tagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.primarymenu {text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.pagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.pagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.paragraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
-.lightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.subtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.footer {height:500px; width: 950px; margin: 0 auto;}
-.column {float: left; width: 30%; padding: 0 1.11% 0 0;}
-.categories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.artiststable  {width:100%; margin: 0 auto}
+.artistssitetitle {color: #0f0326; font-size:4vw; line-height: 4vw; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.artiststagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.artistsprimarymenu {text-align: center; font-size:1.5vw; line-height: 1.5vw; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.artistspagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.artistspagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.artistsparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.artistslightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.artistssubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.artistsfooter {height:500px; width: 950px; margin: 0 auto;}
+.artistscolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
+.artistscategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
-.icon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 100px;}
-.icon .iconhover {position: absolute; left: 0; top: 0; display: none;}
-.icon:hover .iconhover {display: block}
+.artistsicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
+.artistsicon .artistsiconhover {position: absolute; left: 0; top: 0; display: none;}
+.artistsicon:hover .artistsiconhover {display: block}

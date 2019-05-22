@@ -1,19 +1,19 @@
 body {background-color: #ffffff;}
 a {color:  #896a67; text-decoration: none;}
 a:hover {color: #ffb8d1}
-.table  {width: 700px; margin: 0 auto}
-.sitetitle {color: #0f0326; font-size: 300%; line-height: 75%; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.tagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.primarymenu {text-align: center;  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-.pagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.pagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.paragraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
-.lightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.subtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.footer {height:500px; width: 950px; margin: 0 auto;}
-.column {float: left; width: 30%; padding: 0 1.11% 0 0;}
-.categories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.abouttable  {width:100%; margin: 0 auto}
+.aboutsitetitle {color: #0f0326; font-size:4vw; line-height: 4vw; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.abouttagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.aboutprimarymenu {text-align: center; font-size:1.5vw; line-height: 1.5vw; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.aboutpagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.aboutpagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.aboutparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.aboutlightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.aboutsubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.aboutfooter {height:500px; width: 950px; margin: 0 auto;}
+.aboutcolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
+.aboutcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
-.iconabout {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 100px;}
-.iconabout .iconhoverabout {position: absolute; left: 0; top: 0; display: none;}
-.iconabout:hover .iconhoverabout {display: block}
+.abouticon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
+.abouticon .abouticonhover {position: absolute; left: 0; top: 0; display: none;}
+.abouticon:hover .abouticonhover {display: block}
