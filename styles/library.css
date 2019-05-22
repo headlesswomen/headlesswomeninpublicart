@@ -1,0 +1,19 @@
+body {background-color: #ffffff;}
+a {color:  #896a67; text-decoration: none;}
+a:hover {color: #ffb8d1}
+.librarytable  {width:100%; margin: 0 auto}
+.librarysitetitle {color: #0f0326; font-size:80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.librarytagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.libraryprimarymenu {text-align: center; font-size:25px; line-height: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.librarypagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.librarypagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.libraryparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.librarylightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.librarysubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.libraryfooter {height:500px; width: 950px; margin: 0 auto;}
+.librarycolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
+.librarycategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+
+.libraryicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
+.libraryicon .libraryiconhover {position: absolute; left: 0; top: 0; display: none;}
+.libraryicon:hover .libraryiconhover {display: block}
