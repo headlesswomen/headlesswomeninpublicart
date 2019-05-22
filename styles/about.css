@@ -23,8 +23,10 @@ a:hover {color: #ffb8d1}
 .abouticon:hover .abouticonhover {display: block}
 
 @media only screen and (max-width: 600px) {
-    div.abouttable {font-size: 30px;}
+    div.aboutsitetitle {font-size: 60px;}
+    div.aboutpagetitle {font-size: 30px;}
+    div.aboutlightparagraphs {font-size: 20px;}
     div.aboutsidebar {display: none;}
     div.aboutsideimage {display: none;}
-    div.aboutmainbar {width: 100%}
+    div.aboutmainbar {width: 100%; height: auto;}
 }
