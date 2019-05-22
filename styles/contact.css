@@ -2,9 +2,9 @@ body {background-color: #ffffff;}
 a {color:  #896a67; text-decoration: none;}
 a:hover {color: #ffb8d1}
 .contacttable  {width:100%; margin: 0 auto}
-.contactsitetitle {color: #0f0326; font-size:4vw; line-height: 4vw; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.contactsitetitle {color: #0f0326; font-size:80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .contacttagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.contactprimarymenu {text-align: center; font-size:1.5vw; line-height: 1.5vw; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.contactprimarymenu {text-align: center; font-size:25px; line-height: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .contactpagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .contactpagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .contactparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
