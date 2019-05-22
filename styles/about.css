@@ -24,8 +24,8 @@ a:hover {color: #ffb8d1}
 .abouticon:hover .abouticonhover {display: block}
 
 @media only screen and (max-width: 600px) {
-    div.aboutsitetitle {font-size: 30px;}
-    div.aboutpagetitle {font-size: 20px;}
+    div.aboutsitetitle {font-size: 20px; line-height: 20px}
+    div.aboutpagetitle {font-size: 15px; line-height: 15px}
     div.aboutnav {height: 30px;}
     div.aboutlightparagraphs {font-size: 20px;}
     div.aboutsidebar {display: none;}

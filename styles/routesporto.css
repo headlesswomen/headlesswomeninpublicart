@@ -13,7 +13,7 @@ a:hover {color: #ffb8d1}
 .portofooter {height:500px; width: 950px; margin: 0 auto;}
 .portocolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .portocategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.portosideimage {width: 90% height: 90%}
+.portosideimage {width: 90%; height: 90%}
 
 .portonav {height: 100px}
 .portosidebar {width: 35%; height: 1000px; float: left;}
