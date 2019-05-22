@@ -23,5 +23,8 @@ a:hover {color: #ffb8d1}
 .indexembed-responsive-16by9 {padding-bottom: 56.25%;}
 
 @media only screen and (max-width: 600px) {
-    div.indextable {font-size: 30px;}
+    div.indexsitetitle {font-size: 30px;}
+    div.indexpagetitle {font-size: 20px;}
+    div.indexnav {height: 30px;}
+    div.indexembed-responsive-16by9 {padding-bottom: 100vw;}
 }

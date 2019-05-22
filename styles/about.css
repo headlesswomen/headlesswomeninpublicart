@@ -13,8 +13,9 @@ a:hover {color: #ffb8d1}
 .aboutfooter {height:500px; width: 950px; margin: 0 auto;}
 .aboutcolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .aboutcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.aboutsideimage {width: 100%; height: auto}
 
+.aboutsideimage {width: 100%; height: auto}
+.aboutnav {height: 100px}
 .aboutsidebar {width: 35%; height: 1000px; float: left;}
 .aboutmainbar {width: 65%; height: 1000px; float: right;}
 
@@ -23,10 +24,11 @@ a:hover {color: #ffb8d1}
 .abouticon:hover .abouticonhover {display: block}
 
 @media only screen and (max-width: 600px) {
-    div.aboutsitetitle {font-size: 60px;}
-    div.aboutpagetitle {font-size: 30px;}
+    div.aboutsitetitle {font-size: 30px;}
+    div.aboutpagetitle {font-size: 20px;}
+    div.aboutnav {height: 30px;}
     div.aboutlightparagraphs {font-size: 20px;}
     div.aboutsidebar {display: none;}
     div.aboutsideimage {display: none;}
-    div.aboutmainbar {width: 100%; height: auto;}
+    div.aboutmainbar {width: 100%; height: 100%;}
 }

@@ -14,6 +14,21 @@ a:hover {color: #ffb8d1}
 .contactcolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .contactcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
+.contactimage {width: 100%; height: auto;}
+.contactnav {height: 100px}
+.contactsidebar {width: 35%; height: 500px; float: left;}
+.contactmainbar {width: 65%; height: 500px; float: right;}
+
 .contacticon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .contacticon .contacticonhover {position: absolute; left: 0; top: 0; display: none;}
 .contacticon:hover .contacticonhover {display: block}
+
+@media only screen and (max-width: 600px) {
+    div.contactsitetitle {font-size: 30px;}
+    div.contactpagetitle {font-size: 20px;}
+    div.contactnav {height: 30px;}
+    div.contactlightparagraphs {font-size: 20px;}
+    div.contactsidebar {display: none;}
+    div.contactsideimage {display: none;}
+    div.contactmainbar {width: 100%; height: 100%;}
+}
