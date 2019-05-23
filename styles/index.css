@@ -28,13 +28,14 @@ a:hover {color: #ffb8d1}
 .indexembed-responsive-16by9 {padding-bottom: 56.25%;}
 
 @media screen and (max-width: 600px) {
-    .indextopdiv {height: 80px;}
-    .indextopimage {width: 55px; margin-left: auto; margin-right: auto; display: block;}
-    .indexheader {height: 120px;}
-    .indexsitetitle {font-size: 50px; line-height: 60px;}
-    .indexnav {height: 30px;}
-    .indexpagetitle {font-size: 50px; line-height: 60px}
-    .indexparagraphs {font-size: 20px; line-height: 30px;}
+    .indextopdiv {height: 20vw;}
+    .indextopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
+    .indexheader {height: 10vw;}
+    .indexsitetitle {font-size: 6vw; line-height: 7vw;}
+    .indexnav {height: 15vw;}
+    .indexprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
+    .indexpagetitle {font-size: 8vw; line-height: 10vw}
+    .indexparagraphs {font-size: 6vw; line-height: 8vw;}
     .indexlightparagraphs {font-size: 15px; line-height: 25px}
     .indexembed-responsive-16by9 {padding-bottom: 100%;}
 }

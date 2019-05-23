@@ -27,14 +27,16 @@ a:hover {color: #ffb8d1}
 .portoicon:hover .portoiconhover {display: block}
 
 @media screen and (max-width: 600px) {
-    .portotopdiv {height: 80px;}
-    .portotopimage {width: 55px; margin-left: auto; margin-right: auto; display: block;}
-    .portoheader {height: 120px;}
-    .portositetitle {font-size: 50px; line-height: 60px;}
-    .portonav {height: 30px;}
-    .portopagetitle {font-size: 50px; line-height: 60px}
-    .portoparagraphs {font-size: 20px; line-height: 30px;}
-    .portolightparagraphs {font-size: 15px; line-height: 25px}
+    .portotopdiv {height: 20vw;}
+    .portotopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
+    .portoheader {height: 10vw;}
+    .portositetitle {font-size: 6vw; line-height: 7vw;}
+    .portonav {height: 8vw;}
+    .portoprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
+    .portopagetitle {font-size: 8vw; line-height: 10vw}
+    .portopagetopics {font-size: 8vw; line-height: 10vw}
+    .portoparagraphs {font-size: 6vw; line-height: 8vw;text-align: justify}
+    .portolightparagraphs {font-size: 5vw; line-height: 7vw; text-align: justify}
     .portosidebar {display: none;}
     .portosideimage {display: none;}
     .portomainbar {width: 100%; height: 100%;}

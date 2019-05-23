@@ -14,6 +14,21 @@ a:hover {color: #ffb8d1}
 .artistscolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .artistscategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
+.artiststopdiv {height: 120px;}
+.artiststopimage {width: 90px; margin-left: auto; margin-right: auto; display: block;}
+.artistsheader {height: 120px;}
+.artistsnav {height: 100px;}
+
 .artistsicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .artistsicon .artistsiconhover {position: absolute; left: 0; top: 0; display: none;}
 .artistsicon:hover .artistsiconhover {display: block}
+
+@media screen and (max-width: 600px) {
+    .artiststopdiv {height: 20vw;}
+    .artiststopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
+    .artistsheader {height: 10vw;}
+    .artistssitetitle {font-size: 6vw; line-height: 7vw;}
+    .artistsnav {height: 8vw;}
+    .artistsprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
+    .artistspagetitle {font-size: 8vw; line-height: 10vw}
+}

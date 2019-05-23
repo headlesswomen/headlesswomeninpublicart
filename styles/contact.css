@@ -27,14 +27,15 @@ a:hover {color: #ffb8d1}
 .contacticon:hover .contacticonhover {display: block}
 
 @media screen and (max-width: 600px) {
-    .contacttopdiv {height: 80px;}
-    .contacttopimage {width: 55px; margin-left: auto; margin-right: auto; display: block;}
-    .contactheader {height: 120px;}
-    .contactsitetitle {font-size: 50px; line-height: 60px;}
-    .contactnav {height: 30px;}
-    .contactpagetitle {font-size: 50px; line-height: 60px}
-    .contactparagraphs {font-size: 20px; line-height: 30px;}
-    .contactlightparagraphs {font-size: 15px; line-height: 25px}
+    .contacttopdiv {height: 20vw;}
+    .contacttopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
+    .contactheader {height: 10vw;}
+    .contactsitetitle {font-size: 6vw; line-height: 7vw;}
+    .contactnav {height: 8vw;}
+    .contactprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
+    .contactpagetitle {font-size: 8vw; line-height: 10vw}
+    .contactparagraphs {font-size: 6vw; line-height: 8vw;}
+    .contactlightparagraphs {font-size: 5vw; line-height: 7vw;}
     .contactsidebar {display: none;}
     .contactsideimage {display: none;}
     .contactmainbar {width: 100%; height: 100%;}

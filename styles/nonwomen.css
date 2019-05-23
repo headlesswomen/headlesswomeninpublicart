@@ -14,6 +14,21 @@ a:hover {color: #ffb8d1}
 .nonwomencolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .nonwomencategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
+.nonwomentopdiv {height: 120px;}
+.nonwomentopimage {width: 90px; margin-left: auto; margin-right: auto; display: block;}
+.nonwomenheader {height: 120px;}
+.nonwomennav {height: 100px;}
+
 .nonwomenicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .nonwomenicon .nonwomeniconhover {position: absolute; left: 0; top: 0; display: none;}
 .nonwomenicon:hover .nonwomeniconhover {display: block}
+
+@media screen and (max-width: 600px) {
+    .nonwomentopdiv {height: 20vw;}
+    .nonwomentopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
+    .nonwomenheader {height: 10vw;}
+    .nonwomensitetitle {font-size: 6vw; line-height: 7vw;}
+    .nonwomennav {height: 8vw;}
+    .nonwomenprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
+    .nonwomenpagetitle {font-size: 8vw; line-height: 10vw}
+}

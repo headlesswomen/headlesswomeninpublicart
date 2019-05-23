@@ -24,13 +24,16 @@ a:hover {color: #ffb8d1}
 .libraryicon:hover .libraryiconhover {display: block}
 
 @media screen and (max-width: 600px) {
-    .librarytopdiv {height: 80px;}
-    .librarytopimage {width: 55px; margin-left: auto; margin-right: auto; display: block;}
-    .libraryheader {height: 120px;}
-    .librarysitetitle {font-size: 50px; line-height: 60px;}
-    .librarynav {height: 30px;}
-    .librarypagetitle {font-size: 50px; line-height: 60px}
-    .libraryparagraphs {font-size: 20px; line-height: 30px;}
-    .librarylightparagraphs {font-size: 15px; line-height: 25px}
-    .libraryembed-responsive-16by9 {padding-bottom: 100%;}
+    .librarytopdiv {height: 20vw;}
+    .librarytopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
+    .libraryheader {height: 10vw;}
+    .librarysitetitle {font-size: 6vw; line-height: 7vw;}
+    .librarynav {height: 8vw;}
+    .libraryprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
+    .librarypagetitle {font-size: 8vw; line-height: 10vw}
+    .libraryparagraphs {font-size: 6vw; line-height: 8vw;}
+    .librarylightparagraphs {font-size: 5vw; line-height: 7vw;}
+    .librarysidebar {display: none;}
+    .librarysideimage {display: none;}
+    .librarymainbar {width: 100%; height: 100%;}
 }

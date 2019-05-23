@@ -27,14 +27,15 @@ a:hover {color: #ffb8d1}
 .abouticon:hover .abouticonhover {display: block}
 
 @media screen and (max-width: 600px) {
-    .abouttopdiv {height: 80px;}
-    .abouttopimage {width: 55px; margin-left: auto; margin-right: auto; display: block;}
-    .aboutheader {height: 120px;}
-    .aboutsitetitle {font-size: 50px; line-height: 60px;}
-    .aboutnav {height: 30px;}
-    .aboutpagetitle {font-size: 50px; line-height: 60px}
-    .aboutparagraphs {font-size: 20px; line-height: 30px;}
-    .aboutlightparagraphs {font-size: 15px; line-height: 25px}
+    .abouttopdiv {height: 20vw;}
+    .abouttopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
+    .aboutheader {height: 10vw;}
+    .aboutsitetitle {font-size: 6vw; line-height: 7vw;}
+    .aboutnav {height: 8vw;}
+    .aboutprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
+    .aboutpagetitle {font-size: 8vw; line-height: 10vw}
+    .aboutparagraphs {font-size: 6vw; line-height: 8vw; text-align: justify}
+    .aboutlightparagraphs {font-size: 5vw; line-height: 7vw; text-align: justify}
     .aboutsidebar {display: none;}
     .aboutsideimage {display: none;}
     .aboutmainbar {width: 100%; height: 100%;}
