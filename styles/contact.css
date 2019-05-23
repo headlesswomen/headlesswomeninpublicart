@@ -26,6 +26,10 @@ a:hover {color: #ffb8d1}
 .contacticon .contacticonhover {position: absolute; left: 0; top: 0; display: none;}
 .contacticon:hover .contacticonhover {display: block}
 
+.contactinsta {position: relative; margin-left: initial; margin-right: auto; width: 0%; height: 5vw;}
+.contactinsta .contactinstahover {position: absolute; left: 0; top: 0; display: none;}
+.contactinsta:hover .contactinstahover {display: block}
+
 @media screen and (max-width: 600px) {
     .contacttopdiv {height: 20vw;}
     .contacttopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
