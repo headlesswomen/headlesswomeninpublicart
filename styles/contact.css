@@ -16,11 +16,11 @@ a:hover {color: #ffb8d1}
 
 .contacttopdiv {height: 120px;}
 .contacttopimage {width: 90px; margin-left: auto; margin-right: auto; display: block;}
-.contactheader {height: 120px;}
-.contactnav {height: 100px}
+.contactheader {height: 120px; }
+.contactnav {height: 100px; }
 .contactsideimage {width: 100%; height: auto}
-.contactsidebar {width: 35%; height: 100%; float: left;}
-.contactmainbar {width: 65%; height: 100%; float: right;}
+.contactsidebar {width: 35%; height: 100%; float: left; }
+.contactmainbar {width: 65%; height: 100%; float: right; }
 
 .contacticon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .contacticon .contacticonhover {position: absolute; left: 0; top: 0; display: none;}
