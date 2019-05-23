@@ -16,8 +16,8 @@ a:hover {color: #ffb8d1}
 .portosideimage {width: 90%; height: 90%}
 
 .portonav {height: 100px}
-.portosidebar {width: 35%; height: 1000px; float: left;}
-.portomainbar {width: 65%; height: 1000px; float: right;}
+.portosidebar {width: 35%; height: 100%; float: left;}
+.portomainbar {width: 65%; height: 100%; float: right;}
 
 .portoicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .portoicon .portoiconhover {position: absolute; left: 0; top: 0; display: none;}

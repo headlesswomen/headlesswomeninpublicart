@@ -2,33 +2,40 @@ body {background-color: #ffffff;}
 a {color:  #896a67; text-decoration: none;}
 a:hover {color: #ffb8d1}
 .abouttable  {width:100%; margin: 0 auto}
-.aboutsitetitle {color: #0f0326; font-size:80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.abouttagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.aboutsitetitle {color: #0f0326; font-size: 80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+/*.abouttagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}*/
 .aboutprimarymenu {text-align: center; font-size:25px; line-height: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .aboutpagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .aboutpagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .aboutparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
-.aboutlightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.aboutlightparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .aboutsubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 .aboutfooter {height:500px; width: 950px; margin: 0 auto;}
 .aboutcolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .aboutcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
+.abouttopdiv {height: 120px;}
+.abouttopimage {width: 90px; margin-left: auto; margin-right: auto; display: block;}
+.aboutheader {height: 120px;}
 .aboutsideimage {width: 100%; height: auto}
 .aboutnav {height: 100px}
-.aboutsidebar {width: 35%; height: 1000px; float: left;}
-.aboutmainbar {width: 65%; height: 1000px; float: right;}
+.aboutsidebar {width: 35%; height: 100%; float: left;}
+.aboutmainbar {width: 65%; height: 100%; float: right;}
 
 .abouticon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .abouticon .abouticonhover {position: absolute; left: 0; top: 0; display: none;}
 .abouticon:hover .abouticonhover {display: block}
 
-@media only screen and (max-width: 600px) {
-    div.aboutsitetitle {font-size: 20px; line-height: 20px}
-    div.aboutpagetitle {font-size: 15px; line-height: 15px}
-    div.aboutnav {height: 30px;}
-    div.aboutlightparagraphs {font-size: 20px;}
-    div.aboutsidebar {display: none;}
-    div.aboutsideimage {display: none;}
-    div.aboutmainbar {width: 100%; height: 100%;}
+@media screen and (max-width: 600px) {
+    .abouttopdiv {height: 80px;}
+    .abouttopimage {width: 55px; margin-left: auto; margin-right: auto; display: block;}
+    .aboutheader {height: 120px;}
+    .aboutsitetitle {font-size: 50px; line-height: 60px;}
+    .aboutnav {height: 30px;}
+    .aboutpagetitle {font-size: 50px; line-height: 60px}
+    .aboutparagraphs {font-size: 20px; line-height: 30px;}
+    .aboutlightparagraphs {font-size: 15px; line-height: 25px}
+    .aboutsidebar {display: none;}
+    .aboutsideimage {display: none;}
+    .aboutmainbar {width: 100%; height: 100%;}
 }

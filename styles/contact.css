@@ -2,33 +2,40 @@ body {background-color: #ffffff;}
 a {color:  #896a67; text-decoration: none;}
 a:hover {color: #ffb8d1}
 .contacttable  {width:100%; margin: 0 auto}
-.contactsitetitle {color: #0f0326; font-size:80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.contacttagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.contactsitetitle {color: #0f0326; font-size: 80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+/*.contacttagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}*/
 .contactprimarymenu {text-align: center; font-size:25px; line-height: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .contactpagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .contactpagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .contactparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
-.contactlightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.contactlightparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .contactsubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 .contactfooter {height:500px; width: 950px; margin: 0 auto;}
 .contactcolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .contactcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
-.contactimage {width: 100%; height: auto;}
+.contacttopdiv {height: 120px;}
+.contacttopimage {width: 90px; margin-left: auto; margin-right: auto; display: block}
+.contactheader {height: 120px;}
+.contactsideimage {width: 100%; height: auto}
 .contactnav {height: 100px}
-.contactsidebar {width: 35%; height: 500px; float: left;}
-.contactmainbar {width: 65%; height: 500px; float: right;}
+.contactsidebar {width: 35%; height: 100%; float: left;}
+.contactmainbar {width: 65%; height: 100%; float: right;}
 
 .contacticon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .contacticon .contacticonhover {position: absolute; left: 0; top: 0; display: none;}
 .contacticon:hover .contacticonhover {display: block}
 
-@media only screen and (max-width: 600px) {
-    div.contactsitetitle {font-size: 30px;}
-    div.contactpagetitle {font-size: 20px;}
-    div.contactnav {height: 30px;}
-    div.contactlightparagraphs {font-size: 20px;}
-    div.contactsidebar {display: none;}
-    div.contactsideimage {display: none;}
-    div.contactmainbar {width: 100%; height: 100%;}
+@media screen and (max-width: 600px) {
+    .contacttopdiv {height: 80px;}
+    .contacttopimage {width: 55px; margin-left: auto; margin-right: auto; display: block}
+    .contactheader {height: 120px;}
+    .contactsitetitle {font-size: 50px; line-height: 60px;}
+    .contactnav {height: 30px;}
+    .contactpagetitle {font-size: 50px; line-height: 60px}
+    .contactparagraphs {font-size: 20px; line-height: 30px;}
+    .contactlightparagraphs {font-size: 15px; line-height: 25px}
+    .contactsidebar {display: none;}
+    .contactsideimage {display: none;}
+    .contactmainbar {width: 100%; height: 100%;}
 }
