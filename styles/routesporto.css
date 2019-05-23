@@ -2,20 +2,23 @@ body {background-color: #ffffff;}
 a {color:  #896a67; text-decoration: none;}
 a:hover {color: #ffb8d1}
 .portotable  {width:100%; margin: 0 auto}
-.portositetitle {color: #0f0326; font-size:80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.portotagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.portositetitle {color: #0f0326; font-size: 80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+/*.portotagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}*/
 .portoprimarymenu {text-align: center; font-size:25px; line-height: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .portopagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .portopagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .portoparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
-.portolightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.portolightparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .portosubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 .portofooter {height:500px; width: 950px; margin: 0 auto;}
 .portocolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
 .portocategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.portosideimage {width: 90%; height: 90%}
 
+.portotopdiv {height: 120px;}
+.portotopimage {width: 90px; margin-left: auto; margin-right: auto; display: block;}
+.portoheader {height: 120px;}
 .portonav {height: 100px}
+.portosideimage {width: 90%; height:90%}
 .portosidebar {width: 35%; height: 100%; float: left;}
 .portomainbar {width: 65%; height: 100%; float: right;}
 
@@ -23,12 +26,16 @@ a:hover {color: #ffb8d1}
 .portoicon .portoiconhover {position: absolute; left: 0; top: 0; display: none;}
 .portoicon:hover .portoiconhover {display: block}
 
-@media only screen and (max-width: 600px) {
-    div.portositetitle {font-size: 30px;}
-    div.portopagetitle {font-size: 20px;}
-    div.portonav {height: 30px;}
-    div.portolightparagraphs {font-size: 20px;}
-    div.portosidebar {display: none;}
-    div.portosideimage {display: none;}
-    div.portomainbar {width: 100%; height: 100%;}
+@media screen and (max-width: 600px) {
+    .portotopdiv {height: 80px;}
+    .portotopimage {width: 55px; margin-left: auto; margin-right: auto; display: block;}
+    .portoheader {height: 120px;}
+    .portositetitle {font-size: 50px; line-height: 60px;}
+    .portonav {height: 30px;}
+    .portopagetitle {font-size: 50px; line-height: 60px}
+    .portoparagraphs {font-size: 20px; line-height: 30px;}
+    .portolightparagraphs {font-size: 15px; line-height: 25px}
+    .portosidebar {display: none;}
+    .portosideimage {display: none;}
+    .portomainbar {width: 100%; height: 100%;}
 }

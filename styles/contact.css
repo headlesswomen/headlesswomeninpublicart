@@ -15,10 +15,10 @@ a:hover {color: #ffb8d1}
 .contactcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
 .contacttopdiv {height: 120px;}
-.contacttopimage {width: 90px; margin-left: auto; margin-right: auto; display: block}
+.contacttopimage {width: 90px; margin-left: auto; margin-right: auto; display: block;}
 .contactheader {height: 120px;}
-.contactsideimage {width: 100%; height: auto}
 .contactnav {height: 100px}
+.contactsideimage {width: 100%; height: auto}
 .contactsidebar {width: 35%; height: 100%; float: left;}
 .contactmainbar {width: 65%; height: 100%; float: right;}
 
@@ -28,7 +28,7 @@ a:hover {color: #ffb8d1}
 
 @media screen and (max-width: 600px) {
     .contacttopdiv {height: 80px;}
-    .contacttopimage {width: 55px; margin-left: auto; margin-right: auto; display: block}
+    .contacttopimage {width: 55px; margin-left: auto; margin-right: auto; display: block;}
     .contactheader {height: 120px;}
     .contactsitetitle {font-size: 50px; line-height: 60px;}
     .contactnav {height: 30px;}
