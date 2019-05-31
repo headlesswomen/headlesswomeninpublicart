@@ -76,10 +76,11 @@
                                 </div>
                         </div>                     
                         <a href="contact.html">Contact</a> </h3>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
                                 
             </div>
 
-            <div class="indexinsta" style="height: 100px">
+            <div class="indexinsta" style="height: 100px; clear: both;">
                     
                     <img src="images/insta.png" alt="Instagram icon"  height="30vw" width="30vw">              
                                 
@@ -109,25 +110,16 @@
             
         </div> 
 
-        <!--<div class="indexfooter">
-            <div class="indexcolumn">
-                <h4 class="indexcategories">Events</h4>
-                <p class="indexparagraphs" style= "color:#ffb8d1"><b>Soon</b></h3>
-        
-            </div>
-
-            <div class="indexcolumn">
-                <h4 class="indexcategories">Library</h4>
-                <a href="https://www.revistapunkto.com/2018/11/mapa-credulo-mulher-artista-realidade.html?m=1" target="blank">Credulous Map, Woman artist, Cruel Reality <i>(in Portuguese)</i></a>
-                
-            </div>
-
-            <div class="indexcolumn">
-                <h4 class="indexcategories">Follow us</h4>
-                <p class="indexparagraphs" style= "color:#ffb8d1"><b>Soon</b></h3>
-                
-            </div>
-        </div>-->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>        
             
 
     </body>

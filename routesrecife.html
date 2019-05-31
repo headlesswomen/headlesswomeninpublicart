@@ -51,6 +51,8 @@
                     </div> 
                     <a href="#about">Archive</a>                    
                     <a href="contact.html">Contact</a> </h3>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
                                 
             </div>
             
@@ -75,7 +77,19 @@
                 
                
                 <p class="recifeparagraphs" style="color: #ffb8d1; font-size: 3vw">Soon</p>
-                
+
+            </div> 
+
+            <script>
+              function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                  x.className += " responsive";
+                } else {
+                  x.className = "topnav";
+                }
+              }
+              </script>      
                 
     </body>
 </html>
