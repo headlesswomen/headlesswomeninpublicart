@@ -1,23 +1,24 @@
 body {background-color: #ffffff;}
 a {color:  #896a67; text-decoration: none;}
 a:hover {color: #ffb8d1}
-.honoredtable  {width:100%; margin: 0 auto}
-.honoredsitetitle {color: #0f0326; font-size:80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.honoredtagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.honoredprimarymenu {text-align: center; font-size:25px; line-height: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.honoredpagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.honoredpagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.honoredparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
-.honoredlightparagraphs {color: #0f0326; font-size: 100%; line-height: 150%;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.honoredsubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
-.honoredfooter {height:500px; width: 950px; margin: 0 auto;}
-.honoredcolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
-.honoredcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.presentationtable  {width:100%; margin: 0 auto}
+.presentationsitetitle {color: #0f0326; font-size: 80px; line-height: 80px; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+/*.presentationtagline {color: #b8bdb5; font-size: 120%; text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}*/
+.presentationprimarymenu {text-align: center; font-size:25px; line-height: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.presentationpagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.presentationpagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.presentationparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.presentationlightparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.presentationsubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+.presentationfooter {height:500px; width: 950px; margin: 0 auto;}
+.presentationcolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
+.presentationcategories {color: #0f0326; font-size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 
-.honoredtopdiv {height: 90px;}
-.honoredtopimage {width: 90px; margin-left: auto; margin-right: auto; display: block;}
-.honoredheader {height: 120px;}
-.honorednav {height: 100px;}
+.presentationtopdiv {height: 90px;}
+.presentationtopimage {width: 90px; margin-left: auto; margin-right: auto; display: block;}
+.presentationheader {height: 120px;}
+.presentationnav {height: 100px;}
+  
 
 /* Add a black background color to the top navigation */
 .topnav {height: 100px;
@@ -95,7 +96,7 @@ a:hover {color: #ffb8d1}
   /* Add a grey background to dropdown links on hover */
   .dropdown-content a:hover {
     background-color: #ffb8d1;
-    color: #0f0326;
+    color: black;
   }
   
   /* Show the dropdown menu when the user moves the mouse over the dropdown button */
@@ -135,23 +136,32 @@ a:hover {color: #ffb8d1}
       text-align: left;
     }
   }
+  
 
 
+.presentationsideimage {width: 100%; height: auto}
+.presentationsidebar {width: 35%; height: 100%; float: left;}
+.presentationmainbar {width: 65%; height: 100%; float: right;}
 
-.honoredicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
-.honoredicon .honorediconhover {position: absolute; left: 0; top: 0; display: none;}
-.honoredicon:hover .honorediconhover {display: block}
+.presentationicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
+.presentationicon .presentationiconhover {position: absolute; left: 0; top: 0; display: none;}
+.presentationicon:hover .presentationiconhover {display: block}
 
-.honoredinsta {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
-.honoredinsta .honoredinstahover {position: absolute; left: 0; top: 0; display: none;}
-.honoredinsta:hover .honoredinstahover {display: block}
+.presentationinsta {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
+.presentationinsta .presentationinstahover {position: absolute; left: 0; top: 0; display: none;}
+.presentationinsta:hover .presentationinstahover {display: block}
 
 @media screen and (max-width: 600px) {
-    .honoredtopdiv {height: 20vw;}
-    .honoredtopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
-    .honoredheader {height: 10vw;}
-    .honoredsitetitle {font-size: 6vw; line-height: 7vw;}
-    .honorednav {height: 8vw;}
-    .honoredprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
-    .honoredpagetitle {font-size: 8vw; line-height: 10vw}
+    .presentationtopdiv {height: 20vw;}
+    .presentationtopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
+    .presentationheader {height: 10vw;}
+    .presentationsitetitle {font-size: 6vw; line-height: 7vw;}
+    .presentationnav {height: 8vw;}
+    .presentationprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
+    .presentationpagetitle {font-size: 8vw; line-height: 10vw}
+    .presentationparagraphs {font-size: 6vw; line-height: 8vw;}
+    .presentationlightparagraphs {font-size: 5vw; line-height: 7vw;}
+    .presentationsidebar {display: none;}
+    .presentationsideimage {display: none;}
+    .presentationmainbar {width: 100%; height: 100%;}
 }
