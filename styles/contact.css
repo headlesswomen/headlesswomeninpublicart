@@ -21,8 +21,7 @@ a:hover {color: #ffb8d1}
   
 
 /* Add a black background color to the top navigation */
-.topnav {height: 100px;
-    width: fit-content;
+.topnav {width: fit-content;
     margin: 0 auto;
     overflow: hidden;
   }
