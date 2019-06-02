@@ -7,7 +7,7 @@ a:hover {color: #ffb8d1}
 .thewomenprimarymenu {text-align: center; font-size:25px; line-height: 25px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .thewomenpagetitle {color: #0f0326; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .thewomenpagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.thewomenpagesubtopics {color: #0f0326; font-size: 25px; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.thewomenpagesubtopics {color: #0f0326; font-size: 30px; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .thewomenparagraphs {color: #0f0326; font-size: 20px; line-height: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 .thewomenlightparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .thewomensubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
@@ -145,6 +145,7 @@ a:hover {color: #ffb8d1}
 
 
 .thewomensideimage {width: 100%; height: auto}
+/*.thewomensidebar {width: 35%; height: 100%; float: left;}*/
 .thewomenmainbar {width: 95%; height: 100%; float: right;}
 
 .thewomenicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}

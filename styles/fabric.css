@@ -144,8 +144,8 @@ a:hover {color: #ffb8d1}
 
 
 .fabricsideimage {width: 100%; height: auto}
-.fabricsidebar {width: 35%; height: 100%; float: left;}
-.fabricmainbar {width: 65%; height: 100%; float: right;}
+/*.fabricsidebar {width: 35%; height: 100%; float: left;}*/
+.fabricmainbar {width: 95%; height: 100%; float: right;}
 
 .fabricicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .fabricicon .fabriciconhover {position: absolute; left: 0; top: 0; display: none;}
@@ -154,6 +154,10 @@ a:hover {color: #ffb8d1}
 .fabricinsta {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .fabricinsta .fabricinstahover {position: absolute; left: 0; top: 0; display: none;}
 .fabricinsta:hover .fabricinstahover {display: block}
+
+.fabricimage1 {position: relative; margin-left: auto; margin-right: auto;}
+.fabricimage1 .fabricimage1hover {position: absolute; left: 0; top: 0; display: none;}
+.fabricimage1:hover .fabricimage1hover {display: block}
 
 @media screen and (max-width: 600px) {
     .fabrictopdiv {height: 20vw;}

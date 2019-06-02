@@ -144,8 +144,8 @@ a:hover {color: #ffb8d1}
 
 
 .narrativessideimage {width: 100%; height: auto}
-.narrativessidebar {width: 35%; height: 100%; float: left;}
-.narrativesmainbar {width: 65%; height: 100%; float: right;}
+/*.narrativessidebar {width: 35%; height: 100%; float: left;}*/
+.narrativesmainbar {width: 95%; height: 100%; float: right;}
 
 .narrativesicon {position: relative; margin-left: auto; margin-right: auto; width: 0%; height: 5vw;}
 .narrativesicon .narrativesiconhover {position: absolute; left: 0; top: 0; display: none;}
