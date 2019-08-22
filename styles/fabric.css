@@ -159,6 +159,10 @@ a:hover {color: #ffb8d1}
 .fabricimage1 .fabricimage1hover {position: absolute; left: 0; top: 0; display: none;}
 .fabricimage1:hover .fabricimage1hover {display: block}
 
+.fabricimage2 {position: relative; margin-left: auto; margin-right: auto;}
+.fabricimage2 .fabricimage2hover {position: absolute; left: 0; top: 0; display: none;}
+.fabricimage2:hover .fabricimage2hover {display: block}
+
 @media screen and (max-width: 600px) {
     .fabrictopdiv {height: 20vw;}
     .fabrictopimage {width: 12vw; margin-left: auto; margin-right: auto; display: block;}
