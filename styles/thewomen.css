@@ -165,9 +165,9 @@ a:hover {color: #ffb8d1}
     .thewomennav {height: 8vw;}
     .thewomenprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
     .thewomenpagetitle {font-size: 8vw; line-height: 10vw}
-    .thewomenparagraphs {font-size: 6vw; line-height: 8vw; text-align: justify}
-    .thewomenlightparagraphs {font-size: 5vw; line-height: 7vw; text-align: justify}
-    .thewomenlicenseparagraphs {font-size: 4vw; line-height: 6vw; text-align: justify}
+    .thewomenparagraphs {font-size: 5vw; line-height: 7vw; text-align: left}
+    .thewomenlightparagraphs {font-size: 5vw; line-height: 7vw; text-align: left}
+    .thewomenlicenseparagraphs {font-size: 4vw; line-height: 6vw; text-align: center}
     .thewomensidebar {display: none;}
     .thewomensideimage {display: none;}
     .thewomenmainbar {width: 100%; height: 100%;}

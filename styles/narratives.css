@@ -164,9 +164,9 @@ a:hover {color: #ffb8d1}
     .narrativesnav {height: 8vw;}
     .narrativesprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
     .narrativespagetitle {font-size: 8vw; line-height: 10vw}
-    .narrativesparagraphs {font-size: 6vw; line-height: 8vw; text-align: justify}
-    .narrativeslightparagraphs {font-size: 5vw; line-height: 7vw; text-align: justify}
-    .narrativeslicenseparagraphs {font-size: 4vw; line-height: 6vw; text-align: justify}
+    .narrativesparagraphs {font-size: 5vw; line-height: 7vw; text-align: left}
+    .narrativeslightparagraphs {font-size: 5vw; line-height: 7vw; text-align: left}
+    .narrativeslicenseparagraphs {font-size: 4vw; line-height: 6vw; text-align: center}
     .narrativessidebar {display: none;}
     .narrativessideimage {display: none;}
     .narrativesmainbar {width: 100%; height: 100%;}
