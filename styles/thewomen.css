@@ -10,6 +10,7 @@ a:hover {color: #ffb8d1}
 .thewomenpagesubtopics {color: #0f0326; font-size: 30px; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .thewomenparagraphs {color: #0f0326; font-size: 20px; line-height: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 .thewomenlightparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.thewomenlicenseparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .thewomensubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 .thewomenfooter {height:500px; width: 950px; margin: 0 auto;}
 .thewomencolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
@@ -166,6 +167,7 @@ a:hover {color: #ffb8d1}
     .thewomenpagetitle {font-size: 8vw; line-height: 10vw}
     .thewomenparagraphs {font-size: 6vw; line-height: 8vw; text-align: justify}
     .thewomenlightparagraphs {font-size: 5vw; line-height: 7vw; text-align: justify}
+    .thewomenlicenseparagraphs {font-size: 4vw; line-height: 6vw; text-align: justify}
     .thewomensidebar {display: none;}
     .thewomensideimage {display: none;}
     .thewomenmainbar {width: 100%; height: 100%;}

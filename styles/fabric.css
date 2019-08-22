@@ -9,6 +9,7 @@ a:hover {color: #ffb8d1}
 .fabricpagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .fabricparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 .fabriclightparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.fabriclicenseparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .fabricsubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 .fabricfooter {height:500px; width: 950px; margin: 0 auto;}
 .fabriccolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
@@ -171,8 +172,9 @@ a:hover {color: #ffb8d1}
     .fabricnav {height: 8vw;}
     .fabricprimarymenu {font-size: 4.2vw; line-height: 5.5vw;}
     .fabricpagetitle {font-size: 8vw; line-height: 10vw}
-    .fabricparagraphs {font-size: 6vw; line-height: 8vw; text-align: justify}
-    .fabriclightparagraphs {font-size: 5vw; line-height: 7vw; text-align: justify}
+    .fabricparagraphs {font-size: 6vw; line-height: 8vw; text-align: left}
+    .fabriclightparagraphs {font-size: 5vw; line-height: 7vw; text-align: left}
+    .fabriclicenseparagraphs {font-size: 4vw; line-height: 6vw; text-align: center}
     .fabricsidebar {display: none;}
     .fabricsideimage {display: none;}
     .fabricmainbar {width: 100%; height: 100%;}

@@ -9,6 +9,7 @@ a:hover {color: #ffb8d1}
 .narrativespagetopics {color: #0f0326; font-size: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
 .narrativesparagraphs {color: #0f0326; font-size: 20px; line-height: 30px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
 .narrativeslightparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.narrativeslicenseparagraphs {color: #0f0326; font-size: 15px; line-height: 25px;  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .narrativessubtitles {color: #b8bdb5; font-size: 100%; line-height: 0%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
 .narrativesfooter {height:500px; width: 950px; margin: 0 auto;}
 .narrativescolumn {float: left; width: 30%; padding: 0 1.11% 0 0;}
@@ -165,6 +166,7 @@ a:hover {color: #ffb8d1}
     .narrativespagetitle {font-size: 8vw; line-height: 10vw}
     .narrativesparagraphs {font-size: 6vw; line-height: 8vw; text-align: justify}
     .narrativeslightparagraphs {font-size: 5vw; line-height: 7vw; text-align: justify}
+    .narrativeslicenseparagraphs {font-size: 4vw; line-height: 6vw; text-align: justify}
     .narrativessidebar {display: none;}
     .narrativessideimage {display: none;}
     .narrativesmainbar {width: 100%; height: 100%;}
